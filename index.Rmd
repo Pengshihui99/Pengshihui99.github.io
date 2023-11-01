@@ -6,3 +6,14 @@ output:
     toc_float: true
 ---
 
+# This is Shihui Peng's website
+
+This is me!
+
+![](images/photo_psh.jpg)
+
+I grew up in Shenzhen, China and got my Bachelor's degree in Guangzhou, China. Now, I am a MPH candidate in New York, the USA.
+
+# Know more about me!
+
+My [resume](resume.html) can be found here.
