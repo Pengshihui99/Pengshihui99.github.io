@@ -5,4 +5,176 @@ output:
     toc: true
     toc_float: true
 ---
+<div style="text-align: center;">
+# Shihui Peng
 
+Tel: +1 347 992 9347  
+Email: sp4170@cumc.columbia.edu
+
+<div style="text-align: left;">
+## Education
+
+<span style="font-family: Times New Roman; font-size: 18px; font-weight: bold; font-style: italic">
+Columbia University Mailman School of Public Health, New York, the U.S 
+<div style="text-align: right;"><span style="font-weight: normal; font-style: normal">
+2022 Sep – 2024 May (Expected)
+
+<div style="text-align: left;"><span style="font-family: Times New Roman; font-size: 18px; font-weight: normal; font-style: normal">
+Candidate of Master of Public Health (Department of Epidemiology), GPA 4.07 / 4.33  
+Certificate in Applied Biostatistics and Public Health Data Science  
+Related courses: Applied Regression 1 & 2, Analysis of Categorical Data, Application of Epidemiological Research Methods, Design & Conduct of Observational Epidemiology, Data Science, Relational Databases and SQL Programming
+
+<span style="font-family: Times New Roman; font-size: 18px; font-weight: bold; font-style: italic">
+Sun Yat-sen University, Guangzhou, Guangdong, China
+<div style="text-align: right;"><span style="font-weight: normal; font-style: normal">
+2017 Sep – 2022 Jun
+<div style="text-align: left;"><span style="font-family: Times New Roman; font-size: 18px; font-weight: normal; font-style: normal">
+Bachelor of Medicine in Public Health, GPA 3.6 / 4.0. 
+Related courses: Epidemiology, Environment Health, Behavior Medicine, Medical Mathematics, Toxicology.  
+Thesis: “The prevalence of adherence to anti-HER2-targeted therapy guidelines and its association with prognosis among breast cancer patients”  
+
+<div style="text-align: left;">
+## Publication
+
+<span style="font-family: Times New Roman; font-size: 18px; font-weight: normal; font-style: normal">
+Wei D, Wang X, You X, Hao Y, Gu J, Peng S, Yang X, Hao Y, Vincent Silenzio, Li J, Hou F (2020). Prevalence of depression, anxiety and suicide among men who have sex with men in China: a systematic review and meta-analysis. Epidemiology and Psychiatric Sciences 29, e136, 1–11, 2020
+
+<div style="text-align: left;">
+## Academic experience
+
+<span style="font-family: Times New Roman; font-size: 18px; font-weight: bold; font-style: italic">
+Genetic Modifiers of the early onset Alzheimer’s Disease in family members of mutation carriers in the PSEN1 gene  
+<div style="text-align: right;"><span style="font-weight: normal; font-style: normal">
+Columbia University, New York City, NY, the USA  
+2023 June – Now
+<div style="text-align: left;"><span style="font-family: Times New Roman; font-size: 18px; font-weight: normal; font-style: normal">
+*Student Researcher in Dr Joseph H Lee’s team*
+
+-	Design the study and conduct a proposal
+-	Analysis phenotype and genotype data using R
+-	Made a poster and did a presentation of this project in Epidemiology Master Student’s Day in Columbia University
+
+<br>
+<span style="font-family: Times New Roman; font-size: 18px; font-weight: bold; font-style: italic">
+Adherence to anti-HER2-targeted therapy guidelines and its association with prognosis among breast cancer patients
+<div style="text-align: right;"><span style="font-weight: normal; font-style: normal">
+Sun Yat-sen University, Guangzhou, Guangdong, China  
+2021 Dec–2022 May
+<div style="text-align: left;"><span style="font-family: Times New Roman; font-size: 18px; font-weight: normal; font-style: normal">
+*Data collector and student researcher in Dr Zefang Ren's team*
+
+*	Assisted in collecting and recording data for team and the partner hospital using survey and interview  
+*	Assisted in data entry and conducted data quality check through careful review and cross-checking 
+*	Conducted data analysis for 2604 observations, mainly simple and multivariate logistic regression model and Cox proportional hazards model  
+*	Wrote my thesis based on the collected data and found that patients with HER2-negative breast cancer who did not follow the guidelines of anti-HER2-targeted therapy had a worse prognosis  
+
+<br>
+<span style="font-family: Times New Roman; font-size: 18px; font-weight: bold; font-style: italic">
+Dietary vitaminB6 intake, serum PLP level in relation to colorerctal cancer prognosis  
+<div style="text-align: right;"><span style="font-weight: normal; font-style: normal">
+Sun Yat-sen University, Guangzhou, Guangdong, China	 
+2021 Apr–2021 Nov
+<div style="text-align: left;"><span style="font-family: Times New Roman; font-size: 18px; font-weight: normal; font-style: normal">
+*Group leader in Dr Caixia Zhang’s team*
+
+*	Conducted data analysis for 602 observations, mainly using Kaplan-Meier survival estimate, Log-rank test and Cox proportional hazards model
+*	Drafted a thesis “Dietary vitaminB6 intake, serum PLP level in relation to colorectal cancer prognosis: a cohort study”
+*	Found that dietary vitaminB6 intake is a protective factor of patients’ colorectal cancer-specific mortality and patients’ all-cause mortality 
+
+<br>
+<span style="font-family: Times New Roman; font-size: 18px; font-weight: bold; font-style: italic">
+Dietary vitamin D intake, vitamin D-related metabolic enzyme gene polymorphisms and their interaction in relation to colorectal cancer risk  
+<div style="text-align: right;"><span style="font-weight: normal; font-style: normal">
+Sun Yat-sen University, Guangzhou, Guangdong, China	 
+2020 June – 2020 Dec 
+<div style="text-align: left;"><span style="font-family: Times New Roman; font-size: 18px; font-weight: normal; font-style: normal">
+*Group leader in Dr Caixia Zhang's team*	 
+
+* Conducted data analysis for 648 observations, mainly using simple and multivariate logistic regression model
+*	Drafted a thesis “Dietary vitamin D intake, vitamin D-related metabolic enzyme gene polymorphisms in relation to colorectal cancer risk: a case-control study”
+*	Found that dietary vitamin D intake is inversely associated with colorectal cancer risk
+
+<br>
+<span style="font-family: Times New Roman; font-size: 18px; font-weight: bold; font-style: italic">
+Citizens’ attitude and mental condition towards Covid-19  
+<div style="text-align: right;"><span style="font-weight: normal; font-style: normal">
+Sun Yat-sen University, Guangzhou, Guangdong, China  
+2020 Feb – 2020 May  
+<div style="text-align: left;"><span style="font-family: Times New Roman; font-size: 18px; font-weight: normal; font-style: normal">
+*Project Participator in Dr Jing Gu's team*		
+
+* Assisted in data collection using online survey and data quality checking 
+* Conducted data analysis on 16,670 questionnaires
+* Drafted a thesis “Investigation of Knowledge Cognition, Attitude and Prevention of Covid-19 among College Students in Guangdong Province” collectively
+
+<br>
+<span style="font-family: Times New Roman; font-size: 18px; font-weight: bold; font-style: italic">
+Mental condition among men who have sex with men 
+<div style="text-align: right;"><span style="font-weight: normal; font-style: normal">
+Sun Yat-sen University, Guangzhou, Guangdong, China  
+2019 Sep – 2019 Oct  
+<div style="text-align: left;"><span style="font-family: Times New Roman; font-size: 18px; font-weight: normal; font-style: normal">
+*Project Participator in Dr Jinghua Li's team*	
+
+* Conducted data extraction from relevant literature and dissertations and presented data to graduate students for their further study
+* Published a paper “Prevalence of depression, anxiety and suicide among men who have sex with men in China: a systematic review and meta-analysis” in Epidemiology and Psychiatric Sciences in Nov 2020 with team.
+
+<br>
+<span style="font-family: Times New Roman; font-size: 18px; font-weight: bold; font-style: italic">
+Community health services of community family physician model’s effects on type 2 diabetics and hyperpietics and its mechanism -- based on the core features of general practice  
+<div style="text-align: right;"><span style="font-weight: normal; font-style: normal">
+Sun Yat-sen University, Guangzhou, Guangdong, China  
+2019 June – 2020 Feb  
+<div style="text-align: left;"><span style="font-family: Times New Roman; font-size: 18px; font-weight: normal; font-style: normal">
+*Project Participator*	
+
+* Designed questionnaires for patients with different status of type 2 diabetes and hypertension
+* Conducted pre-survey in community health center in Shayuan and adjusted contents of questionnaire
+* Collected 554 questionnaires partnered with team members using survey and face-to-face interview
+* Conducted data entry, preliminary statistical analysis and report-writing
+
+<div style="text-align: left;">
+## Professional experience
+
+<span style="font-family: Times New Roman; font-size: 18px; font-weight: bold; font-style: italic">
+Department of Biostatistics, Columbia University  
+<div style="text-align: right;"><span style="font-weight: normal; font-style: normal">
+New York, NY, the USA    
+2023 Nov – 2023 Dec 
+<div style="text-align: left;"><span style="font-family: Times New Roman; font-size: 18px; font-weight: normal; font-style: normal">
+*Teaching assistant of P8100: Applied Regression 1*
+
+-	Graded students’ homework
+-	Hosted office hours to solve students’ confusion and problems of this course
+
+<br>
+<span style="font-family: Times New Roman; font-size: 18px; font-weight: bold; font-style: italic">
+Futian District Center for Disease Prevention and Control  
+<div style="text-align: right;"><span style="font-weight: normal; font-style: normal">
+Shenzhen, Guangdong, China  
+2021 Oct – 2022 Jan  
+<div style="text-align: left;"><span style="font-family: Times New Roman; font-size: 18px; font-weight: normal; font-style: normal">
+*Intern*	
+
+-	Monitored schools' environment and architect condition
+-	Assisted in some basic data analysis and report writing task
+-	Assisted CDC staff with the collection and transportation of anal swab samples from hotel employees
+
+<br>
+<span style="font-family: Times New Roman; font-size: 18px; font-weight: bold; font-style: italic">
+Shenzhen Bao'an People's Hospital  
+<div style="text-align: right;"><span style="font-weight: normal; font-style: normal">
+Shenzhen, Guangdong, China  
+2021 July – 2021 Oct 
+<div style="text-align: left;"><span style="font-family: Times New Roman; font-size: 18px; font-weight: normal; font-style: normal">
+*Intern*	
+
+-	Checked and submitted about 500 infectious disease reports in Department of Prevention and Health
+-	Conducted a retro-and-pro report on infectious disease for September in Department of Prevention and Health and offered disease-control advice for the hospital and Bao’an CDC
+-	Assisted in treating patients and worked as surgical assistant in department of Obstetrics, Gynaecology, Respiratory Medicine, General Surgery
+
+<div style="text-align: left;">
+## Skills
+
+-	Skilled in SAS, R, MySQL, SPSS, Excel, WORD, PowerPoint, EpiData, EndNote
+-	Speak Mandarin and English
