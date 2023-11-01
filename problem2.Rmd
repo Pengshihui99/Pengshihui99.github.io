@@ -12,6 +12,7 @@ load the libraries and dataset of NYC restaurant inspections
 ```{r, message=FALSE}
 library(tidyverse)
 library(plotly)
+library(flexdashboard)
 
 library(p8105.datasets)
 data("rest_inspec")
@@ -19,13 +20,73 @@ data("rest_inspec")
 
 # import and clean data
 
-i want to focus on restaurants in Manhattan, which have records of grade in 'A', 'B', or 'C' and have record of critical flag in "Critical" or "Not Critical"
+focus on restaurants which have records of grade in 'A', 'B', or 'C', and have record of critical flag in "Critical" or "Not Critical".
 ```{r}
 inspection_df =
   rest_inspec |> 
   janitor::clean_names() |> 
-  select(boro, grade, zipcode, critical_flag, score) |> 
+  select(boro, grade, camis, zipcode, critical_flag, score, inspection_date) |> 
+  separate(inspection_date, into = c('year', 'month', 'day')) |> 
   drop_na() |> 
-  filter(boro == "MANHATTAN" & grade %in% c("A", "B", "C") & critical_flag %in% c("Critical", "Not Critical"))
+  filter(boro != 'Missing' & grade %in% c("A", "B", "C") & critical_flag %in% c("Critical", "Not Critical") & year >=2013 & year <= 2017)
+```
+
+# create plots
+
+## line 
+
+```{r}
+inspection_df |>
+  select(boro, year, score) |> 
+  group_by(boro, year) |> 
+  mutate(
+    avg_score = mean(score, na.rm = TRUE),
+  ) |> 
+  select(-score) |> 
+  distinct(boro, year, .keep_all = TRUE) |>
+  arrange(year) |> 
+  plot_ly(x = ~year, y = ~avg_score, color = ~boro, type = 'scatter', mode = 'line', colors = 'viridis') |> 
+  layout(
+    yaxis = list(title = "Average score"),
+    title = "Average acore for each year across borough",
+    xaxis = list(title = "Inspection year")
+  )
+```
+
+## boxplot for boro and score
+
+```{r}
+inspection_df |> 
+  select(boro, score, year) |> 
+  plot_ly(x = ~boro, y = ~score, type = 'box', colors = 'viridis') |> 
+  layout(
+    title = "Score distribution across boroughs",
+    xaxis = list(title = "Borough"),
+    yaxis = list(title = "Total score of each inspection (in 5 year from 2013-2017)")
+  )
+```
+
+## bar chart for boro and count grade (5-year)
+
+```{r}
+inspection_df |> 
+  select(boro, grade, year) |> 
+  mutate(grade = fct_relevel(grade, c("C", "B", "A"))) |> 
+  group_by(boro, year) |> 
+  count(grade) |> 
+  ungroup() |> 
+  group_by(boro, grade) |> 
+  mutate(
+    avg_n_grade = mean(n, na.rm = TRUE)
+  ) |> 
+  select(-year, -n) |> 
+  distinct(boro, grade, .keep_all = TRUE) |> 
+  plot_ly(x = ~boro, y = ~avg_n_grade, color = ~grade, type = 'bar', colors = 'viridis') |> 
+  layout(
+    barmode = 'stack',
+    xaxis = list(title = "Borough"),
+    yaxis = list(title = "Count of grade"),
+    title = "5-year average counts of each grade across borough"
+  )
 ```
 
