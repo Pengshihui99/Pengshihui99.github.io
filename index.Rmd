@@ -20,4 +20,4 @@ My [resume](resume.html) can be found here.
 
 # p8105-hw4-problem2
 
-here is the link for [p8105-hw4-problproblem2_dashboard.html.html)!
+here is the link for [p8105-hw4-problem2](problem2_dashboard.html)!
