@@ -352,7 +352,27 @@ div.tocify {
 </div>
 
 
+<div id="load-libraries-and-dataset" class="section level1">
+<h1>load libraries and dataset</h1>
+<p>load the libraries and dataset of NYC restaurant inspections</p>
+<pre class="r"><code>library(tidyverse)
+library(plotly)
 
+library(p8105.datasets)
+data(&quot;rest_inspec&quot;)</code></pre>
+</div>
+<div id="import-and-clean-data" class="section level1">
+<h1>import and clean data</h1>
+<p>i want to focus on restaurants in Manhattan, which have records of
+grade in ‘A’, ‘B’, or ‘C’ and have record of critical flag in “Critical”
+or “Not Critical”</p>
+<pre class="r"><code>inspection_df =
+  rest_inspec |&gt; 
+  janitor::clean_names() |&gt; 
+  select(boro, grade, zipcode, critical_flag, score) |&gt; 
+  drop_na() |&gt; 
+  filter(boro == &quot;MANHATTAN&quot; &amp; grade %in% c(&quot;A&quot;, &quot;B&quot;, &quot;C&quot;) &amp; critical_flag %in% c(&quot;Critical&quot;, &quot;Not Critical&quot;))</code></pre>
+</div>
 
 
 

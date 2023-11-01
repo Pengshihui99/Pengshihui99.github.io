@@ -6,11 +6,26 @@ output:
     toc_float: true
 ---
 
-```{r, message=FALSE, echo=FALSE}
+# load libraries and dataset
+
+load the libraries and dataset of NYC restaurant inspections
+```{r, message=FALSE}
 library(tidyverse)
 library(plotly)
 
 library(p8105.datasets)
 data("rest_inspec")
+```
+
+# import and clean data
+
+i want to focus on restaurants in Manhattan, which have records of grade in 'A', 'B', or 'C' and have record of critical flag in "Critical" or "Not Critical"
+```{r}
+inspection_df =
+  rest_inspec |> 
+  janitor::clean_names() |> 
+  select(boro, grade, zipcode, critical_flag, score) |> 
+  drop_na() |> 
+  filter(boro == "MANHATTAN" & grade %in% c("A", "B", "C") & critical_flag %in% c("Critical", "Not Critical"))
 ```
 
