@@ -5,7 +5,7 @@ output:
     orientation: columns
     vertical_layout: fill
 ---
-
+focus on restaurants inspections records which have records of grade in 'A', 'B', or 'C', and have record of critical flag in "Critical" or "Not Critical", and have records of borough information, from 2013 to 2017.
 ```{r setup, include=FALSE}
 library(flexdashboard)
 library(tidyverse)
